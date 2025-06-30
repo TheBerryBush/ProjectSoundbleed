@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{e07e6c2f-5936-48aa-a5ce-b2d0434c5313}">
+		<property name="name">
+			<value>pillarfade</value>
+		</property>
+		<relationship name="folder">
+			<destination>{15dd3810-4894-44ab-b675-e77ecdeef440}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{0b0491cd-2402-4f21-b1f0-e34e41ec54cf}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{0b0491cd-2402-4f21-b1f0-e34e41ec54cf}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.5</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

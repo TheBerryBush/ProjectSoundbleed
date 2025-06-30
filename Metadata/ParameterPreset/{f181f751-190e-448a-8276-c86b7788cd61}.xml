@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{f181f751-190e-448a-8276-c86b7788cd61}">
+		<property name="name">
+			<value>musicAttenuation</value>
+		</property>
+		<relationship name="folder">
+			<destination>{15dd3810-4894-44ab-b675-e77ecdeef440}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{5c5f9aad-ea9c-46db-810f-ced17a4ec00a}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{5c5f9aad-ea9c-46db-810f-ced17a4ec00a}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>1</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

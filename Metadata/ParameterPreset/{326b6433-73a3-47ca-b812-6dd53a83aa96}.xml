@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{326b6433-73a3-47ca-b812-6dd53a83aa96}">
+		<property name="name">
+			<value>frog</value>
+		</property>
+		<relationship name="folder">
+			<destination>{15dd3810-4894-44ab-b675-e77ecdeef440}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{00e943ba-de73-41b1-9913-cce965d82a5a}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{00e943ba-de73-41b1-9913-cce965d82a5a}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
